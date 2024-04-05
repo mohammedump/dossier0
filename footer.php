@@ -1,5 +1,5 @@
-<footer class="text-white text-center py-3">
-        <div class="containers">
-            <p>&copy; 2024 . Tous droits réservés.</p>
-        </div>
-    </footer>
+<footer class="text-white text-center py-2">
+    <div class="container">
+        <p class="mb-0 fs-6">© 2024 . Tous droits réservés.</p>
+    </div>
+</footer>

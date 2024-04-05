@@ -9,26 +9,71 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>members</title>
+    <style>
+        .card {
+            width: 100%;
+            border-radius: 15px;
+            margin-right: 10px; 
+            margin-bottom: 10px; 
+        }
+        .photos-container {
+            margin-bottom: 50px; 
+        }
+    </style>
+    </style>
 </head>
 
 <body class="page-members">
     <?php include "topnav.php" ?>
     <?php include "navbar.php" ?>
-    <div class="row justify-content-center mt-5">
-        <div class="col-md-6 mb-4 d-flex align-items-center justify-content-center">
-            <div class="card text-center">
-                <img src="assetes/images/lakhouaja.jpg" class="card-img-top img-fluid" style="max-width: 100%;" alt="Abdelhak Lakhouaja">
-                <div class="card-body">
-                    <a href="https://lakhouaja.oujda-nlp-team.net/" class="btn btn-dark">Visitez le site</a>
-                </div>
-            </div>
+    <div class="container mt-5 photos-container">
+        <div class="row justify-content-start">
+        <?php
+            $image_directory = 'assetes/images/image1/';
 
-            <div class="card text-center">
-                <img src="assetes/images/mazroui.jpg" class="card-img-top img-fluid" style="max-width: 100%;" alt="Image de la carte 2">
-                <div class="card-body">
-                    <a href="#" class="btn btn-dark">Visitez le site</a>
-                </div>
-            </div>
+            // Tableau associatif pour spécifier l'ordre des images
+            $image_order = array(
+                'mazroui.jpg' => 1,
+                'lakhouaja.jpg' => 2,
+                'meziane.jpg' => 3,
+                'boudlal.jpg' => 4,
+                'belahbib.jpg' => 5,
+                'ouldAbdellah.jpg' => 6,
+                'boudchiche.jpg' => 7,
+                'ababou.jpg' => 8,
+                'chennoufi.jpg' => 10,
+                'zeroual.jpg' => 11,
+                'moataz.jpg' => 12,
+                'reqqass.jpg' => 13,
+                'nassiri.jpg' => 14,
+                'elkah.jpg' => 15,
+                'berrichi.jpg' => 16,
+                'touahri.jpg' => 17,
+                'belayachi.jpg' => 18,
+                'masbah.jpg' => 19,
+                'khlif.jpg' => 20,
+
+                // Ajoutez d'autres images avec leur ordre respectif
+            );
+
+            // Récupère la liste des fichiers dans le dossier
+            $files = scandir($image_directory);
+
+            // Trie le tableau associatif en fonction des valeurs (ordre)
+            asort($image_order);
+
+            // Boucle à travers les fichiers
+            foreach ($image_order as $file => $order) {
+                // Vérifie si le fichier est une image (JPG ou PNG)
+                if (pathinfo($file, PATHINFO_EXTENSION) == 'jpg' || pathinfo($file, PATHINFO_EXTENSION) == 'png') {
+                    echo '<div class="col-md-3 mb-4">';
+                    echo '<div class="card text-center">';
+                    echo '<img src="' . $image_directory . $file . '" class="card-img-top img-fluid" style="max-width: 100%; height: auto; border-radius: 15px;" alt="' . $file . '">';
+                    echo '</div>';
+                    echo '</div>';
+                }
+            }
+            ?>
         </div>
     </div>
     <div onclick="scrollToTop()" class="scrollTop">↑
