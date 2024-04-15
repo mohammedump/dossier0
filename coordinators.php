@@ -16,6 +16,10 @@
             margin-right: 10px; /* Ajustez cet espacement selon vos préférences */
             margin-bottom: 10px; /* Ajustez cet espacement selon vos préférences */
         }
+        .img-max-width {
+    max-width: 400px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+    height: auto; /* Garantit que l'aspect ratio est préservé */
+}
     </style>
 </head>
 
@@ -23,7 +27,7 @@
 <body class="page-members">
     <?php include "topnav.php" ?>
     <?php include "navbar.php" ?>
-    <div class="container mt-5">
+    <div class="container mt-5 mb-4">
         <div class="row justify-content-start">
         <?php
             // Chemin du dossier contenant les images
@@ -48,9 +52,9 @@
             foreach ($image_order as $file => $order) {
                 // Vérifie si le fichier est une image (JPG ou PNG)
                 if (pathinfo($file, PATHINFO_EXTENSION) == 'jpg' || pathinfo($file, PATHINFO_EXTENSION) == 'png') {
-                    echo '<div class="col-md-3 mb-4">';
-                    echo '<div class="card text-center">';
-                    echo '<img src="' . $image_directory . $file . '" class="card-img-top img-fluid" style="max-width: 100%; height: auto; border-radius: 15px;" alt="' . $file . '">';
+                    echo '<div class="col-md-6 mb-4">';
+                    echo '<div class="card text-center d-flex align-items-center justify-content-center">';
+                    echo '<img src="' . $image_directory . $file . '" class="card-img-top img-fluid img-max-width" style="border-radius: 15px;" alt="' . $file . '">';
                     echo '</div>';
                     echo '</div>';
                 }

@@ -39,33 +39,33 @@
                 </ul>
             </div>
             <div class="col move-down-top">
-    <div class="card-deck equal-card-height">
-        <div class="card">
-            <div class="card-body text-center">
-                <img src="assetes/images/z3-removebg-preview.png" width="23%" class="mb-3">
-                <h4 class="card-title">Source</h4>
-                <p class="card-text">You have the opportunity to download the <strong>source code</strong> for AlKhalil Morpho Sys.</p>
-                <a href="traitement/AlkhalilMorphSys2.zip" class="btn btn-primary">Download Source</a>
+                <div class="card-deck equal-card-height">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="assetes/images/z3-removebg-preview.png" width="23%" class="mb-3">
+                            <h4 class="card-title">Source</h4>
+                            <p class="card-text">You have the opportunity to download the <strong>source code</strong> for AlKhalil Morpho Sys.</p>
+                            <a href="traitement/AlkhalilMorphSys2.zip" class="btn btn-primary">Download Source</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="assetes/images/z2-removebg-preview.png" width="21%" class="mb-3">
+                            <h4 class="card-title">Jar</h4>
+                            <p class="card-text">You have the opportunity to download the <strong>JAR file</strong> for AlKhalil Morpho Sys.</p>
+                            <a href="traitement/AlkhalilMorphSys2.jar" class="btn btn-primary">Download JAR</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="assetes/images/z1-removebg-preview.png" width="20%" class="mb-3">
+                            <h4 class="card-title">Rest API</h4>
+                            <p class="card-text">You have the opportunity to download the <strong>REST API</strong> for AlKhalil Morpho Sys.</p>
+                            <a href="traitement/web-API-alkhalilAnalyzer-2.0.zip" class="btn btn-primary">Download API</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="card-body text-center">
-                <img src="assetes/images/z2-removebg-preview.png" width="21%" class="mb-3">
-                <h4 class="card-title">Jar</h4>
-                <p class="card-text">You have the opportunity to download the <strong>JAR file</strong> for AlKhalil Morpho Sys.</p>
-                <a href="traitement/AlkhalilMorphSys2.jar" class="btn btn-primary">Download JAR</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body text-center">
-                <img src="assetes/images/z1-removebg-preview.png" width="20%" class="mb-3">
-                <h4 class="card-title">Rest API</h4>
-                <p class="card-text">You have the opportunity to download the <strong>REST API</strong> for AlKhalil Morpho Sys.</p>
-                <a href="traitement/web-API-alkhalilAnalyzer-2.0.zip" class="btn btn-primary">Download API</a>
-            </div>
-        </div>
-    </div>
-</div>
 
         </div>
 
@@ -102,36 +102,36 @@
             </div>
             <?php include "assetes/js/alkhalil.php" ?>
         </div>
-        
- <div class="dw mb-4" style="margin-bottom: 400px;">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="six">
-                <h1 class="mb-3">RESTful Web API Code Snippets<span class="d-block">for AlKhalil Morpho Sys</span></h1>
-                <p class="mb-4">
-                    API code examples in popular programming languages such as Java, Python. These code snippets allow
-                    you to effectively utilize the API and integrate it into your projects for the AlKhalil Morpho Sys
-                    module.
-                </p>
-            </div>
+
+        <div class="dw mb-4" style="margin-bottom: 400px;">
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="java-tab" data-toggle="tab" href="#java" role="tab" aria-controls="java" aria-selected="true">Java</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="python-tab" data-toggle="tab" href="#python" role="tab" aria-controls="python" aria-selected="false">Python</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="java" role="tabpanel" aria-labelledby="java-tab">
-                            <div class="inner">
-                                <div class="test-icon text-center">
-                                    <span class="icon" id="icon22" style="font-size: 4rem;"><i class="bi bi-filetype-java bi-4x"></i></span> <!-- Java icon -->
-                                </div>
-                                <div class="col-md-12">
-                                <pre id="language-java" class="code-block"style="height: 400px; overflow-y: auto;">
+                    <div class="six">
+                        <h1 class="mb-3">RESTful Web API Code Snippets<span class="d-block">for AlKhalil Morpho Sys</span></h1>
+                        <p class="mb-4">
+                            API code examples in popular programming languages such as Java, Python. These code snippets allow
+                            you to effectively utilize the API and integrate it into your projects for the AlKhalil Morpho Sys
+                            module.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" id="java-tab" data-toggle="tab" href="#java" role="tab" aria-controls="java" aria-selected="true">Java</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="python-tab" data-toggle="tab" href="#python" role="tab" aria-controls="python" aria-selected="false">Python</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="java" role="tabpanel" aria-labelledby="java-tab">
+                                    <div class="inner">
+                                        <div class="test-icon text-center">
+                                            <span class="icon" id="icon22" style="font-size: 4rem;"><i class="bi bi-filetype-java bi-4x"></i></span> <!-- Java icon -->
+                                        </div>
+                                        <div class="col-md-12">
+                                            <pre id="language-java" class="code-block" style="height: 400px; overflow-y: auto;">
                                     <code class="language-java">
 <span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>io<span
         class="token punctuation">.</span></span><span class="token class-name">BufferedReader</span><span
@@ -198,16 +198,16 @@
 
                                     </code>
                                 </pre>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
-                            <div class="code-wrapper">
-                                <div class="test-icon text-center">
-                                    <span class="icon" id="icon1" style="font-size: 4rem;"><i class="bi bi-filetype-py bi-4x"></i></span> <!-- Python icon -->
-                                </div>
-                                <div class="col-md-8 center-block">
-                                <pre id="language-python" class="code-block" style="font-size: 0.9em; line-height: 1.5; overflow-x: auto;">
+                                <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
+                                    <div class="code-wrapper">
+                                        <div class="test-icon text-center">
+                                            <span class="icon" id="icon1" style="font-size: 4rem;"><i class="bi bi-filetype-py bi-4x"></i></span> <!-- Python icon -->
+                                        </div>
+                                        <div class="col-md-8 center-block">
+                                            <pre id="language-python" class="code-block" style="font-size: 0.9em; line-height: 1.5; overflow-x: auto;">
                                     <code class="language-python">
 <span class="token keyword">import</span> requests
 
@@ -227,6 +227,8 @@ response <span class="token operator">=</span> requests<span class="token punctu
 								</code>
                                     </code>
                                 </pre>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -234,14 +236,12 @@ response <span class="token operator">=</span> requests<span class="token punctu
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
 
 
 
         <div class="dw" style="margin-bottom: 400px;">
-            
+
         </div>
 
 
@@ -263,7 +263,7 @@ response <span class="token operator">=</span> requests<span class="token punctu
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="assetes/js/script2.js"></script>
     <script src="assetes/js/alkhalil.js"></script>
     <script src="assetes/js/script1.js"></script>

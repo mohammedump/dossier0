@@ -13,13 +13,18 @@
         .card {
             width: 100%;
             border-radius: 15px;
-            margin-right: 10px; 
-            margin-bottom: 10px; 
+            margin-right: 10px;
+            margin-bottom: 10px;
         }
+
         .photos-container {
-            margin-bottom: 50px; 
+            margin-bottom: 50px;
         }
-    </style>
+
+        .col-md-2-5 {
+            flex: 0 0 20%;
+            max-width: 30%;
+        }
     </style>
 </head>
 
@@ -28,7 +33,7 @@
     <?php include "navbar.php" ?>
     <div class="container mt-5 photos-container">
         <div class="row justify-content-start">
-        <?php
+            <?php
             $image_directory = 'assetes/images/image1/';
 
             // Tableau associatif pour spécifier l'ordre des images
@@ -66,7 +71,7 @@
             foreach ($image_order as $file => $order) {
                 // Vérifie si le fichier est une image (JPG ou PNG)
                 if (pathinfo($file, PATHINFO_EXTENSION) == 'jpg' || pathinfo($file, PATHINFO_EXTENSION) == 'png') {
-                    echo '<div class="col-md-3 mb-4">';
+                    echo '<div class="col-md-2-5 mb-4">';
                     echo '<div class="card text-center">';
                     echo '<img src="' . $image_directory . $file . '" class="card-img-top img-fluid" style="max-width: 100%; height: auto; border-radius: 15px;" alt="' . $file . '">';
                     echo '</div>';
